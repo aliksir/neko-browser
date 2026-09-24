@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Hard hat (yellow) -->
+  <ellipse cx="32" cy="22" rx="26" ry="10" fill="#FFD700"/>
+  <rect x="6" y="18" width="52" height="8" rx="2" fill="#FFC107"/>
+  <rect x="4" y="24" width="56" height="4" rx="1" fill="#F9A825"/>
+  <!-- Cat face (orange) -->
+  <circle cx="32" cy="40" r="20" fill="#FF8C00"/>
+  <!-- Ears -->
+  <polygon points="14,24 8,10 22,22" fill="#FF8C00"/>
+  <polygon points="50,24 56,10 42,22" fill="#FF8C00"/>
+  <polygon points="15,23 10,12 21,21" fill="#FFB74D"/>
+  <polygon points="49,23 54,12 43,21" fill="#FFB74D"/>
+  <!-- Eyes (smiling/closed) -->
+  <path d="M22,38 Q26,34 30,38" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M34,38 Q38,34 42,38" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <ellipse cx="32" cy="43" rx="2.5" ry="2" fill="#d45500"/>
+  <!-- Mouth -->
+  <path d="M28,46 Q32,50 36,46" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Whiskers -->
+  <line x1="8" y1="40" x2="22" y2="42" stroke="#1a1a1a" stroke-width="1" stroke-linecap="round"/>
+  <line x1="8" y1="44" x2="22" y2="44" stroke="#1a1a1a" stroke-width="1" stroke-linecap="round"/>
+  <line x1="42" y1="42" x2="56" y2="40" stroke="#1a1a1a" stroke-width="1" stroke-linecap="round"/>
+  <line x1="42" y1="44" x2="56" y2="44" stroke="#1a1a1a" stroke-width="1" stroke-linecap="round"/>
+</svg>

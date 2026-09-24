@@ -1,0 +1,10 @@
+node_modules/
+dist/
+_deleted/
+# 猫軍団成果物ディレクトリ（ローカル専用）
+audit/
+checklist/
+designs/
+logs/
+plans/
+test-plan/

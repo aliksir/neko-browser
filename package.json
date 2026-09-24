@@ -1,0 +1,35 @@
+{
+  "name": "neko-browser",
+  "version": "0.3.1",
+  "description": "Dedicated browser for Neko Gundan agents. Headed Playwright with persistent profile, fully isolated from daily-use Chrome.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "neko-browser": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.mjs",
+    "pretest": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "playwright",
+    "browser",
+    "automation",
+    "neko-gundan"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.1.9"
+  }
+}

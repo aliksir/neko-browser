@@ -1,0 +1,12 @@
+# neko-browser publish whitelist
+# Only files matching these patterns will be synced from working dir
+package.json
+tsconfig.json
+vitest.config.ts
+.gitignore
+README.md
+LICENSE
+src/**
+test/**
+tests/**
+assets/**
